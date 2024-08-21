@@ -1,10 +1,10 @@
 # Initialize vowels
-vowels = ["a","e","i","o","u", "A", "E","I","O","U"]
+vowels = ["a","e","i","o","u"]
 
 
 # Get user input
 def main():
-    tweet = str(input("Input: ")).strip()
+    tweet = str(input("Input: ")).strip().lower()
     modified_tweet = converter(tweet, vowels)
     print("Output:",modified_tweet)
 
