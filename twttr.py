@@ -10,7 +10,7 @@ def main():
 
 
 
-# Define converter
+# Removes te vowels
 def converter(text, vowels):
     for vowel in vowels:
          text = text.replace(vowel, "")
