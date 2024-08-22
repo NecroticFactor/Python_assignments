@@ -1,6 +1,6 @@
 operations = ["multiplication table", "factorial", "fibonacci sequence", "sum of digits"]
 
-# Main function that does everything
+# Main function that does everything here
 def main():
     prompt = get_prompt()
     validator(prompt)
